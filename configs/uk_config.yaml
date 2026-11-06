@@ -1,0 +1,6 @@
+region: "United Kingdom"
+target_crs: "EPSG:27700"
+species_classes:
+  1: "Broadleaf"
+  2: "Scots Pine"
+  3: "Sitka Spruce"

@@ -1,0 +1,6 @@
+region: "Scandinavia"
+target_crs: "EPSG:32633"
+species_classes:
+  1: "Norway Spruce"
+  2: "Scots Pine"
+  3: "Birch"

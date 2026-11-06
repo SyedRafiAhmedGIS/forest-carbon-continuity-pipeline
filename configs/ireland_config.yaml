@@ -1,0 +1,8 @@
+region: "Ireland"
+target_crs: "EPSG:25829"
+species_classes:
+  1: "Sitka Spruce"
+  2: "Lodgepole Pine"
+  3: "Native Mixed"
+nfi_threshold_dbh_cm: 10.0
+uncertainty_ci: 0.95

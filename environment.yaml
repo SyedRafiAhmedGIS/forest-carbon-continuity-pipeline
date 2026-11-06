@@ -1,0 +1,23 @@
+name: forest-carbon-continuity
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - geopandas
+  - rasterio
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - joblib
+  - numpy
+  - pandas
+  - openpyxl
+  - matplotlib
+  - pillow
+  - ipywidgets
+  - ipykernel
+  - jupyterlab
+  - tqdm
+  - pytest
+  - imageio
