@@ -17,7 +17,20 @@ This repository is designed for **< 4 Hour Time-to-Productivity** for any new an
 ## 🚀 Quick Start (Hour 1)
 1. **Setup:** `conda env create -f environment.yaml` (or `docker compose up`)
 2. **Activate:** `conda activate forest-carbon-continuity`
-3. **Run:** Open `notebooks/00_Smart_Upload_Preview.ipynb`, upload the bundled sample `data/sample_nfi.csv`, and see the data validated end-to-end.
+3. **Run:** Open `notebooks/00_Smart_Upload_Preview.ipynb`, upload the bundled sample `data/sample_nfi.csv`, and see the data validated end-to-end.
+
+## Interactive Notebooks - Open in Colab
+
+| # | Phase | Notebook | Open in Colab |
+|---|-------|----------|:---:|
+| 00 | Smart Upload & Preview | [`00_Smart_Upload_Preview.ipynb`](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/00_Smart_Upload_Preview.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/00_Smart_Upload_Preview.ipynb) |
+| 01 | Preprocessing & CRS | [`01_Preprocessing_CRS.ipynb`](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/01_Preprocessing_CRS.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/01_Preprocessing_CRS.ipynb) |
+| 02 | Cloud Masking & S1/S2 Fusion | [`02_Cloud_Masking_Fusion.ipynb`](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/02_Cloud_Masking_Fusion.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/02_Cloud_Masking_Fusion.ipynb) |
+| 03 | NFI Ground Truth | [`03_NFI_Ground_Truth.ipynb`](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/03_NFI_Ground_Truth.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/03_NFI_Ground_Truth.ipynb) |
+| 04 | ML Species Classification | [`04_ML_Species_Classification.ipynb`](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/04_ML_Species_Classification.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/04_ML_Species_Classification.ipynb) |
+| 05 | Carbon Stock & Uncertainty | [`05_Carbon_Stock_Uncertainty.ipynb`](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/05_Carbon_Stock_Uncertainty.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/05_Carbon_Stock_Uncertainty.ipynb) |
+| 06 | Forest Density & Land-Cover Layers | [`06_Forest_Density_LandCover_Layers.ipynb`](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/06_Forest_Density_LandCover_Layers.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/06_Forest_Density_LandCover_Layers.ipynb) |
+| 99 | Master Orchestrator (all phases) | [`99_Master_Orchestrator.ipynb`](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/99_Master_Orchestrator.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/99_Master_Orchestrator.ipynb) |
 
 ## Interactive Notebooks - Open in Colab
 
