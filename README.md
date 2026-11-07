@@ -1,4 +1,9 @@
 # 🌲 Forest Carbon Continuity Pipeline
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/blob/main/notebooks/00_Smart_Upload_Preview.ipynb)
+[![CI/CD Guardrails](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/SyedRafiAhmedGIS/forest-carbon-continuity-pipeline/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **A Sentinel-1/2 Hybrid Approach for EU LULUCF Compliance — One Engine. Multiple Climates.**  
 *Built for cloud-proof, species-specific, and reproducible carbon accounting.*
 
@@ -17,7 +22,8 @@ This repository is designed for **< 4 Hour Time-to-Productivity** for any new an
 ## 🚀 Quick Start (Hour 1)
 1. **Setup:** `conda env create -f environment.yaml` (or `docker compose up`)
 2. **Activate:** `conda activate forest-carbon-continuity`
-3. **Run:** Open `notebooks/00_Smart_Upload_Preview.ipynb`, upload the bundled sample `data/sample_nfi.csv`, and see the data validated end-to-end.
+3. **Run:** Open `notebooks/00_Smart_Upload_Preview.ipynb`, upload the bundled sample `data/sample_nfi.csv`, and see the data validated end-to-end.
+
 
 ## Interactive Notebooks - Open in Colab
 
